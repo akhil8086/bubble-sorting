@@ -1,10 +1,11 @@
 
-import BubbleSorting from './Components/BubbleSorting'
+import BubbleSorting from "./Components/BubbleSorting"
+
 
 function App() {
   return (
-    <div>
-      <BubbleSorting />
+    <div style={{display:"flex",alignItems:"center",flexDirection:"column",marginTop:"200px"}}>
+     <BubbleSorting />      
     </div>
   )
 }
