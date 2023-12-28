@@ -4,9 +4,7 @@ import { useDispatch, useSelector } from "react-redux";
 import {
   setInputValue,
   setArray,
-  setSortedArray,
   setSortOrder,
-  setSortingTime,
 } from "./Redux/sortingSlice";
 import SortingDisplay from "./SortingDisplay";
 
